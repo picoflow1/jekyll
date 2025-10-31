@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     list:
       - title: "Customer's Bots"
         desc: >
-          Among all agentic flow solutions, creating a complex customer-facing bot chat can be the most challenging. This type of flow aims to collect information from customers in order to achieve business objectives. In fact, many companies start to replace or supplement their UI applications with bot chats. Our [PicoFlow]("https://www.google.com") framework is 2-3X more productive in creating chatbots for business than LangGraph!
+          Among all agentic flow solutions, creating a complex customer-facing bot chat can be the most challenging. This type of flow aims to collect information from customers in order to achieve business objectives. In fact, many companies start to replace or supplement their UI applications with bot chats. Our PicoFlow framework is 2-3X more productive in creating chatbots for business than LangGraph!
 
           <i class="fas fa-hand-point-right text-primary"></i> [Watch this demo](https://youtu.be/YHzov6LNg1o)
         icon: fas fa-robot
