@@ -1,0 +1,36 @@
+// Styling for the services section
+#services {
+  background-color: #212529;
+  color: white;
+  .service-heading {
+    color: white;
+  }
+  .text-muted {
+    color: #f8f9fa !important;
+  }
+  a {
+    color: $primary;
+  }
+  .fa-stack-1x.fa-inverse {
+    color: #272626 !important;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.page-section .text-muted {
+  text-align: left;
+}
+
+#about {
+  background-color: #3a4147;
+  color: white;
+
+  h2,
+  h3,
+  .text-muted {
+    color: white !important;
+  }
+}
