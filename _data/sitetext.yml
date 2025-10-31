@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         desc: >
           Injecting AI into existing business flows is one of the most pressing activities. PicoFlow can easily orchestrate a business flow with judicious addition of AI capabilities using the latest context engineering techniques. PicoFlow provides observability, traceability and replayability in production to mitigate probabilistic hallucination by LLM.
         icon: fas fa-sitemap
-      - title: "[RAG](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "RAG"
         desc: >
           We have experience in multi-faceted RAG techniques including various chunking strategies: overlapping/recursive/late-chunking/summarization, re-ranker, and Graph-assisted RAG.
         icon: fas fa-search-plus
