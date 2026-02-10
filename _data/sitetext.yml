@@ -65,6 +65,14 @@ en: &DEFAULT_EN
             url: "https://github.com/picoflowio/travel-demo"
             class: "btn-outline-dark"
             icon: "fab fa-github"
+      - title: "UiDemo"
+        desc: "a React ChatBot UI to connect to picoflows"
+        icon: fas fa-comments
+        links:
+          - text: "Git Repository"
+            url: "https://github.com/picoflowio/chat-ui.git"
+            class: "btn-outline-dark"
+            icon: "fab fa-github"
   qna:
     title: "Q&A"
     text: "Frequently Asked Questions"
