@@ -36,6 +36,35 @@ en: &DEFAULT_EN
           We have experience in multi-faceted RAG techniques including various chunking strategies: overlapping/recursive/late-chunking/summarization, re-ranker, and Graph-assisted RAG.
         icon: fas fa-search-plus
 
+  demos:
+    title: "Demos"
+    text: "See PicoFlow in action."
+    section: demos
+    list:
+      - title: "Hotel Demo"
+        desc: "Complete reservation flow example."
+        icon: fas fa-hotel
+        links:
+          - text: "Git Repository"
+            url: "https://github.com/picoflowio/hotel-demo"
+            class: "btn-outline-dark"
+            icon: "fab fa-github"
+          - text: "YouTube Video"
+            url: "https://youtu.be/YHzov6LNg1o"
+            class: "btn-outline-danger"
+            icon: "fab fa-youtube"
+          - text: "Tutorial"
+            url: "https://tutorial1.picoflow.io"
+            class: "btn-outline-primary"
+            icon: "fas fa-book"
+      - title: "TravelAgent"
+        desc: "A smart agent for booking travel."
+        icon: fas fa-plane
+        links:
+          - text: "Git Repository"
+            url: "https://github.com/picoflowio/travel-demo"
+            class: "btn-outline-dark"
+            icon: "fab fa-github"
   qna:
     title: "Q&A"
     text: "Frequently Asked Questions"

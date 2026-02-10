@@ -1,0 +1,83 @@
+<!-- Demos Section -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].demos.section | default: "demos" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].demos.title | default: "Demos" }}</h2>
+        {% if site.data.sitetext[site.locale].demos.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].demos.text }}</h3>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {% for demo in site.data.sitetext[site.locale].demos.list %}
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-4">
+               <span class="fa-stack fa-2x mb-3">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
+               </span>
+               <h4 class="card-title">{{ demo.title }}</h4>
+               <p class="card-text text-muted">{{ demo.desc }}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              {% for link in demo.links %}
+              <li class="list-group-item border-0 px-0">
+                <a href="{{ link.url }}" class="btn {{ link.class }} btn-block text-left">
+                  <i class="{{ link.icon }} mr-2"></i> {{ link.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.demos.section | default: "demos" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.demos.title | default: "Demos" }}</h2>
+        {% if site.data.sitetext.demos.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.demos.text }}</h3>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {% for demo in site.data.sitetext.demos.list %}
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <div class="text-center mb-4">
+               <span class="fa-stack fa-2x mb-3">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
+               </span>
+               <h4 class="card-title">{{ demo.title }}</h4>
+               <p class="card-text text-muted">{{ demo.desc }}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              {% for link in demo.links %}
+              <li class="list-group-item border-0 px-0">
+                <a href="{{ link.url }}" class="btn {{ link.class }} btn-block text-left">
+                  <i class="{{ link.icon }} mr-2"></i> {{ link.text }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End Demos Section -->
