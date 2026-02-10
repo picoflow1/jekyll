@@ -58,7 +58,7 @@ en: &DEFAULT_EN
             class: "btn-outline-primary"
             icon: "fas fa-book"
       - title: "TravelAgent"
-        desc: "A smart agent for booking travel."
+        desc: "A smart agent for booking travel. This agent was reimplemented but based on many similar LangGraph examples."
         icon: fas fa-plane
         links:
           - text: "Git Repository"
