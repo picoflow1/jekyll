@@ -65,6 +65,10 @@ en: &DEFAULT_EN
             url: "https://github.com/picoflowio/travel-demo"
             class: "btn-outline-dark"
             icon: "fab fa-github"
+          - text: "YouTube Video"
+            url: "https://youtu.be/ORtKyt0YQ94"
+            class: "btn-outline-danger"
+            icon: "fab fa-youtube"
       - title: "UiDemo"
         desc: "a React ChatBot UI to connect to picoflows"
         icon: fas fa-comments
