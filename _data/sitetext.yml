@@ -50,7 +50,7 @@ en: &DEFAULT_EN
             class: "btn-outline-dark"
             icon: "fab fa-github"
           - text: "YouTube Video"
-            url: "https://youtu.be/YHzov6LNg1o"
+            url: "https://youtu.be/0c8iU4boep4"
             class: "btn-outline-danger"
             icon: "fab fa-youtube"
           - text: "Tutorial"
