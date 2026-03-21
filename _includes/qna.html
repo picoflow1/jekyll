@@ -23,6 +23,11 @@
             <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#qnaAccordion">
               <div class="card-body text-left">
                 {{ qa.answer | markdownify }}
+                {% if qa.license_modal %}
+                <button type="button" class="btn btn-sm btn-primary mt-3" data-toggle="modal" data-target="#licenseModal">
+                  View Full License
+                </button>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -56,6 +61,11 @@
             <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#qnaAccordion">
               <div class="card-body text-left">
                 {{ qa.answer | markdownify }}
+                {% if qa.license_modal %}
+                <button type="button" class="btn btn-sm btn-primary mt-3" data-toggle="modal" data-target="#licenseModal">
+                  View Full License
+                </button>
+                {% endif %}
               </div>
             </div>
           </div>
@@ -66,4 +76,5 @@
   </div>
 </section>
 {% endif %}
+{% include license_modal.html %}
 <!-- End Q&A Section -->

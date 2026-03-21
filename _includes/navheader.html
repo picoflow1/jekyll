@@ -5,7 +5,7 @@
       {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path }}"
+        src="{{ site.logo.path | relative_url }}"
         style="margin-right: 10px"
       />
       {%- endif -%} {{ site.title }}
@@ -83,9 +83,9 @@
       <br />
       <div class="text-white mt-3">
         <i class="fas fa-hand-point-right text-primary"></i>
-        <a href="https://github.com/picoflowio/travel-demo" class="home-button"
-          >New TravelAgent Demo Github Repo</a
-        >
+        <a href="{{ site.baseurl }}/#qna" class="home-button js-scroll-trigger">
+          Free Personal Licence Key
+        </a>
       </div>
 
       <div class="text-white mt-3">

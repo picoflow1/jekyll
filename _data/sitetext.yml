@@ -25,7 +25,7 @@ en: &DEFAULT_EN
         desc: >
           Among all agentic flow solutions, creating a complex customer-facing bot chat can be the most challenging. This type of flow aims to collect information from customers in order to achieve business objectives. In fact, many companies start to replace or supplement their UI applications with bot chats. Our PicoFlow framework is 2-3X more productive in creating chatbots for business than LangGraph!
 
-          <i class="fas fa-hand-point-right text-primary"></i> [Watch this demo](https://youtu.be/YHzov6LNg1o)
+          Watch this demss below<i class="fas fa-hand-point-down text-primary"></i>
         icon: fas fa-robot
       - title: "Business Flows"
         desc: >
@@ -41,7 +41,19 @@ en: &DEFAULT_EN
     text: "See PicoFlow in action."
     section: demos
     list:
-      - title: "Hotel Demo"
+      - title: "Basic Demo"
+        desc: "Show many PicoFlow techniques."
+        icon: fas fa-seedling
+        links:
+          - text: "Git Repository"
+            url: "https://github.com/picoflowio/basic-demo"
+            class: "btn-outline-dark"
+            icon: "fab fa-github"
+          - text: "Tutorial"
+            url: "https://basic-tutorial.picoflow.io"
+            class: "btn-outline-primary"
+            icon: "fas fa-book"
+      - title: "Hotel Reservation"
         desc: "Complete reservation flow example."
         icon: fas fa-hotel
         links:
@@ -54,7 +66,19 @@ en: &DEFAULT_EN
             class: "btn-outline-danger"
             icon: "fab fa-youtube"
           - text: "Tutorial"
-            url: "https://tutorial1.picoflow.io"
+            url: "https://hotel-tutorail.picoflow.io"
+            class: "btn-outline-primary"
+            icon: "fas fa-book"
+      - title: "Medical Appointment"
+        desc: "Schedule visits and route intake details to care teams."
+        icon: fas fa-notes-medical
+        links:
+          - text: "Git Repository"
+            url: "https://github.com/picoflowio/medical-appointment-bot"
+            class: "btn-outline-dark"
+            icon: "fab fa-github"
+          - text: "Tutorial"
+            url: "https://medical-appointment-tutorial.picoflow.io"
             class: "btn-outline-primary"
             icon: "fas fa-book"
       - title: "TravelAgent"
