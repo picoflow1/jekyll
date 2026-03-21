@@ -66,7 +66,7 @@ en: &DEFAULT_EN
             class: "btn-outline-danger"
             icon: "fab fa-youtube"
           - text: "Tutorial"
-            url: "https://hotel-tutorail.picoflow.io"
+            url: "https://hotel-tutorial.picoflow.io"
             class: "btn-outline-primary"
             icon: "fas fa-book"
       - title: "Medical Appointment"
