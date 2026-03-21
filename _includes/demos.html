@@ -15,10 +15,15 @@
       <div class="col d-flex">
         <div class="card w-100 h-100 shadow-sm border-0 p-3">
           <div class="text-center mb-3">
-             <span class="fa-stack fa-2x mb-2">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
-             </span>
+             <div class="d-inline-flex align-items-center justify-content-center mb-2">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
+                </span>
+                {% if demo.emoji %}
+                <span class="fs-2 ms-2" aria-hidden="true">{{ demo.emoji }}</span>
+                {% endif %}
+             </div>
              <h5 class="card-title mb-1">{{ demo.title }}</h5>
              <p class="card-text text-muted small mb-0">{{ demo.desc }}</p>
           </div>
@@ -55,10 +60,15 @@
       <div class="col d-flex">
         <div class="card w-100 h-100 shadow-sm border-0 p-3">
           <div class="text-center mb-3">
-             <span class="fa-stack fa-2x mb-2">
-                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
-             </span>
+             <div class="d-inline-flex align-items-center justify-content-center mb-2">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="{{ demo.icon | default: "fas fa-laptop" }} fa-stack-1x fa-inverse"></i>
+                </span>
+                {% if demo.emoji %}
+                <span class="fs-2 ms-2" aria-hidden="true">{{ demo.emoji }}</span>
+                {% endif %}
+             </div>
              <h5 class="card-title mb-1">{{ demo.title }}</h5>
              <p class="card-text text-muted small mb-0">{{ demo.desc }}</p>
           </div>

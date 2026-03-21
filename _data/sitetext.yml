@@ -38,12 +38,13 @@ en: &DEFAULT_EN
 
   demos:
     title: "Demos"
-    text: "See PicoFlow in action."
+    text: "See PicoFlow in action. OpenClaw creates these Demos marked by 🦞."
     section: demos
     list:
       - title: "Basic Demo"
         desc: "Show many PicoFlow techniques."
         icon: fas fa-seedling
+        emoji: "🦞"
         links:
           - text: "Git Repository"
             url: "https://github.com/picoflowio/basic-demo"
@@ -56,6 +57,7 @@ en: &DEFAULT_EN
       - title: "Hotel Reservation"
         desc: "Complete reservation flow example."
         icon: fas fa-hotel
+        emoji: ""
         links:
           - text: "Git Repository"
             url: "https://github.com/picoflowio/hotel-demo"
@@ -72,6 +74,7 @@ en: &DEFAULT_EN
       - title: "Medical Appointment"
         desc: "Schedule visits and route intake details to care teams."
         icon: fas fa-notes-medical
+        emoji: "🦞"
         links:
           - text: "Git Repository"
             url: "https://github.com/picoflowio/medical-appointment-bot"
@@ -84,6 +87,7 @@ en: &DEFAULT_EN
       - title: "TravelAgent"
         desc: "A smart agent for booking travel. This agent was reimplemented but based on many similar LangGraph examples."
         icon: fas fa-plane
+        emoji: "🦞"
         links:
           - text: "Git Repository"
             url: "https://github.com/picoflowio/travel-demo"
@@ -96,6 +100,7 @@ en: &DEFAULT_EN
       - title: "UiDemo"
         desc: "a React ChatBot UI to connect to picoflows"
         icon: fas fa-comments
+        emoji: "🦞"
         links:
           - text: "Git Repository"
             url: "https://github.com/picoflowio/chat-ui.git"
